@@ -1,0 +1,7 @@
+virtualenv --python=/usr/bin/python3.9 python
+
+source python/bin/activate
+
+pip install confluent_kafka==2.1.1 -t python/lib/python3.9/site-packages
+
+zip -r9 python.zip python

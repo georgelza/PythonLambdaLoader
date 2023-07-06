@@ -1,0 +1,31 @@
+2023-06-30 07:05:30,826 - INFO - JSONDecomposer - Start
+2023-06-30 07:05:30,826 - DEBUG - Bootstrap_servers :pkc-q283m.af-south-1.aws.confluent.cloud
+2023-06-30 07:05:30,826 - DEBUG - Bootstrap_port    :9092
+2023-06-30 07:05:30,826 - DEBUG - Topicname         :SNDBX_TFM_engineResponse
+2023-06-30 07:05:30,826 - DEBUG - Security_protocol :SASL_SSL
+2023-06-30 07:05:30,826 - DEBUG - Sasl_mechanisms   :PLAIN
+2023-06-30 07:05:30,826 - DEBUG - flushcap          :2000
+2023-06-30 07:05:30,826 - DEBUG - reccap            :10
+2023-06-30 07:05:30,826 - INFO - bucket            :applab-epay-sandbox-filedrop
+2023-06-30 07:05:30,826 - INFO - key               :Kafka-connect/AsyncOut/year=2023/month=06/day=20/hour=16/largecomplexline.json.gz
+2023-06-30 07:05:30,826 - INFO - json_file         :s3://applab-epay-sandbox-filedrop/Kafka-connect/AsyncOut/year=2023/month=06/day=20/hour=16/largecomplexline.json.gz
+2023-06-30 07:05:30,827 - INFO - topicname         :AsyncOut
+2023-06-30 07:05:30,827 - INFO - filename          :largecomplexline.json.gz
+2023-06-30 07:05:30,827 - INFO - 
+2023-06-30 07:05:30,892 - INFO - Kafka Producer instantiated: <cimpl.Producer object at 0x7f8df06953b0>
+2023-06-30 07:05:30,892 - INFO - 
+2023-06-30 07:05:31,034 - DEBUG - s3 client created
+2023-06-30 07:05:31,259 - DEBUG - s3 client.get_object created
+2023-06-30 07:05:31,690 - DEBUG - s3 body read
+2023-06-30 07:05:31,691 - DEBUG - file handle created
+2023-06-30 07:05:31,691 - DEBUG - starting enumerater
+2023-06-30 07:05:31,693 - DEBUG - completed enumerater
+2023-06-30 07:05:31,693 - INFO - Topic:AsyncOut, File:s3://applab-epay-sandbox-filedrop/Kafka-connect/AsyncOut/year=2023/month=06/day=20/hour=16/largecomplexline.json.gz
+2023-06-30 07:05:31,693 - INFO - Step 1, St:2023-06-30 07:05:30.826906 Et:2023-06-30 07:05:30.827115 Rt:0.00020837499999992737
+2023-06-30 07:05:31,693 - INFO - Step 2, St:2023-06-30 07:05:30.827116 Et:2023-06-30 07:05:30.892478 Rt:0.06536783300000004
+2023-06-30 07:05:31,693 - INFO - Step 3, St:2023-06-30 07:05:30.892482 Et:2023-06-30 07:05:31.691288 Rt:0.798853792
+2023-06-30 07:05:31,693 - INFO - Step 4, St:2023-06-30 07:05:31.691297 Et:2023-06-30 07:05:31.693445 Rt:0.0021487909999999832
+2023-06-30 07:05:31,693 - INFO - Step 0, St:2023-06-30 07:05:30.826719 Et:2023-06-30 07:05:31.693459 Rt:0.866776875
+2023-06-30 07:05:31,693 - INFO - Rate:4653.779730090119 docs/s
+2023-06-30 07:05:32,178 - DEBUG - File handle closed
+2023-06-30 07:05:32,179 - INFO - JSONDecomposer - End

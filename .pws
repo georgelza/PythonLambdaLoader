@@ -1,0 +1,4 @@
+
+export kafka_sasl_username=3MZ4JFBQS375IUUA
+export kafka_sasl_password=Vj8MASendaIs0j61V1uXcJ1EaZ9z4Vc8LG6cZ1XWilAJjYS05bZIk7AaGx0Y49xb
+export kafka_bootstrap_servers=pkc-q283m.af-south-1.aws.confluent.cloud
